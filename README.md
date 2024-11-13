@@ -4,6 +4,6 @@ DMARC helps protect your domain from email spoofing and phishing attacks by spec
 Location: cPanel > Zone Editor > manage domain > add new record (TXT)
 
 Name: _dmarc.yourdomain.com <br>
-TTL: 14400
-Type: TXT
+TTL: 14400 <br>
+Type: TXT <br>
 Record: v=DMARC1; p=none; adkim=r; aspf=r;
